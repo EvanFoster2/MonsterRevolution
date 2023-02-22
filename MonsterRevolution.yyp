@@ -32,6 +32,9 @@
     "IDEVersion": "2023.1.1.62",
   },
   "resources": [
+    {"id":{"name":"Player","path":"objects/Player/Player.yy",},"order":1,},
+    {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":15,},
+    {"id":{"name":"Goblin","path":"objects/Goblin/Goblin.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "RoomOrderNodes": [

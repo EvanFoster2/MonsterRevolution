@@ -15,5 +15,8 @@
     {"name":"Notes","order":13,"path":"folders/Notes.yy",},
     {"name":"Extensions","order":14,"path":"folders/Extensions.yy",},
   ],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"Player","order":1,"path":"objects/Player/Player.yy",},
+    {"name":"Sprite1","order":15,"path":"sprites/Sprite1/Sprite1.yy",},
+  ],
 }
