@@ -36,6 +36,7 @@
     {"id":{"name":"spr_goblin","path":"sprites/spr_goblin/spr_goblin.yy",},"order":6,},
     {"id":{"name":"spr_zombie","path":"sprites/spr_zombie/spr_zombie.yy",},"order":5,},
     {"id":{"name":"obj_battleScreen","path":"objects/obj_battleScreen/obj_battleScreen.yy",},"order":7,},
+    {"id":{"name":"Explode","path":"scripts/Explode/Explode.yy",},"order":0,},
     {"id":{"name":"obj_zombie","path":"objects/obj_zombie/obj_zombie.yy",},"order":4,},
     {"id":{"name":"obj_itemButton","path":"objects/obj_itemButton/obj_itemButton.yy",},"order":9,},
     {"id":{"name":"obj_move1","path":"objects/obj_move1/obj_move1.yy",},"order":10,},

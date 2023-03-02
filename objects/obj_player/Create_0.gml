@@ -8,7 +8,9 @@ xp = 0;
 
 moveSet = {
 	sword: 10 * level,
-	bow: 20 * level
+	bow: 20 * level,
+	Move1: "Sword: 10",
+	Move2: "Bow: 20"
 }
 
 hisTurn = true;
