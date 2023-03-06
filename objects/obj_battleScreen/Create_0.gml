@@ -11,3 +11,4 @@ enum battleState {
 
 global.battle_state = battleState.PLAYERTURN;
 global.attackButtonPushed = false;
+global.itemButtonPushed = false;

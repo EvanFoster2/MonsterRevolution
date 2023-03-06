@@ -13,6 +13,8 @@ moveSet = {
 	Move2: "Bow: 20"
 }
 
+items = {};
+
 hisTurn = true;
 selectedMove = moveSet.sword;
 
