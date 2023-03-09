@@ -3,9 +3,7 @@
 
 if (global.attackButtonPushed) {
 	canClick = true;
-	visible = 1;
 }
 else {
-	visible = 0;
 	canClick = false;
 }

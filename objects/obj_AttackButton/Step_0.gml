@@ -1,10 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (global.attackButtonPushed) {
-	visible = 0;
-	obj_itemButton.visible = 0;
-}
-else {
-	visible = 1;
-	obj_itemButton.visible = 1;
-}
+//if (global.attackButtonPushed) {
+//	canClick = false;
+//	obj_itemButton.canClick = false;
+//}
+//else {
+//	canClick = true;
+//}
