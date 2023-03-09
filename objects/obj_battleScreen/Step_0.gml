@@ -14,6 +14,7 @@ if (global.itemButtonPushed) {
 	obj_itemButton.canClick = false;
 	obj_AttackButton.visible = 0;
 	obj_AttackButton.canClick = false;
+	draw_sprite(spr_itembutton, -1, 500,500);
 }
 if (!global.attackButtonPushed && !global.itemButtonPushed) {
 	obj_AttackButton.visible = 1;

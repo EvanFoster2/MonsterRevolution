@@ -11,3 +11,6 @@ draw_text(selectedEnemy.x + 100, selectedEnemy.y+280, "Health: " + string(select
 
 //draw_rectangle(x1, y1, x2, y2, outline);
 
+//if (global.itemButtonPushed) {
+//	draw_sprite(spr_itembutton, -1, 500,500);
+//}
