@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-hp = 5;
+hp = 50;
 atk = 1;
 defense = 1;
 
