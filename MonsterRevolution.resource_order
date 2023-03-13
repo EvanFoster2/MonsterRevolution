@@ -32,7 +32,7 @@
     {"name":"obj_player","order":1,"path":"objects/obj_player/obj_player.yy",},
     {"name":"spr_move2","order":11,"path":"sprites/spr_move2/spr_move2.yy",},
     {"name":"spr_move1","order":10,"path":"sprites/spr_move1/spr_move1.yy",},
-    {"name":"Sprite13","order":12,"path":"sprites/Sprite13/Sprite13.yy",},
+    {"name":"spr_back","order":12,"path":"sprites/spr_back/spr_back.yy",},
     {"name":"obj_dragon","order":6,"path":"objects/obj_dragon/obj_dragon.yy",},
     {"name":"Sprite1","order":15,"path":"sprites/Sprite1/Sprite1.yy",},
     {"name":"spr_player","order":1,"path":"sprites/spr_player/spr_player.yy",},

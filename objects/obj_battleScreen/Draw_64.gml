@@ -5,7 +5,7 @@
 //draw_text_color(obj_player.x+230, obj_player.y+80, "Attack ", c_black, c_black, c_black, c_black, 500);
 //draw_text_color(obj_player.x+230, obj_player.y+140, "Items: ", c_black, c_black, c_black, c_black, 500);
 
-draw_text(obj_player.x + 60, obj_player.y+250, "Health: " + string(obj_player.hp));
+draw_text(obj_player.x + 60, obj_player.y+230, "Health: " + string(obj_player.hp));
 
 draw_text(selectedEnemy.x + 100, selectedEnemy.y+280, "Health: " + string(selectedEnemy.hp));
 

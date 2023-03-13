@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sprite13",
-    "path": "sprites/Sprite13/Sprite13.yy",
+    "name": "spr_back",
+    "path": "sprites/spr_back/spr_back.yy",
   },
   "spriteMaskId": null,
   "visible": true,
