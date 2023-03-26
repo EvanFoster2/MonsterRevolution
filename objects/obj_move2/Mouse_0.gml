@@ -5,7 +5,7 @@ damage = obj_player.moveSet.Move2;
 
 
 damageArray = explode(" ", damage);
-d = damageArray[1];
+damageAmount = damageArray[1];
 
 if (global.battle_state == battleState.PLAYERTURN && canClick) {
 	canClick = false;

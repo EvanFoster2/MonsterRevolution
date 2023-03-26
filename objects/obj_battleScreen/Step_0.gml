@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+if (room == Room1) {
 if (global.attackButtonPushed) {
 	obj_AttackButton.visible = 0;
 	obj_AttackButton.canClick = false;
@@ -30,6 +31,7 @@ if (!global.attackButtonPushed && !global.itemButtonPushed) {
 }
 
 if (global.battle_state = battleState.ENEMYTURN) {
-		obj_player.hp -= (selectedEnemy.selectedMove/obj_player.defense);
+		selectedPlayer.hp -= (selectedEnemy.selectedMove/selectedPlayer.defense);
 		global.battle_state = battleState.PLAYERTURN;
+}
 }
