@@ -61,6 +61,7 @@
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":1,},
     {"id":{"name":"obj_splashScreen","path":"objects/obj_splashScreen/obj_splashScreen.yy",},"order":13,},
     {"id":{"name":"spr_troll","path":"sprites/spr_troll/spr_troll.yy",},"order":4,},
+    {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"order":16,},
     {"id":{"name":"spr_attack","path":"sprites/spr_attack/spr_attack.yy",},"order":8,},
     {"id":{"name":"Sprite16","path":"sprites/Sprite16/Sprite16.yy",},"order":15,},
     {"id":{"name":"obj_skeleton","path":"objects/obj_skeleton/obj_skeleton.yy",},"order":1,},

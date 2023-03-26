@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-selectedEnemy = obj_goblin;
+selectedEnemy = global.enemySelected
 selectedPlayer = obj_player;
 enum battleState {
 	PLAYERTURN,
