@@ -1,0 +1,13 @@
+Alpha Document
+
+What is Done: Splash Screen, simple start to game world, and battle system screens are finished, with most of the game built to be expanded onto easily.
+
+In Progess/Needs to be Done:
+Much more fleshed out game world with scrolling camera and various monsters
+and items places around the map, leveling system with players and monsters, better artwork, boss fights
+
+Known bugs: 
+- player object goes back to original x,y coordinate when done with battle
+- player can move off screen
+- battle system needs to be changed to draw sprite at a specific coordinate
+
