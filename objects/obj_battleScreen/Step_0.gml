@@ -34,4 +34,11 @@ if (global.battle_state = battleState.ENEMYTURN) {
 		selectedPlayer.hp -= (selectedEnemy.selectedMove/selectedPlayer.defense);
 		global.battle_state = battleState.PLAYERTURN;
 }
+
+if (selectedEnemy.hp <= 0) {
+	ds_list_add(global.killedEnemy, selectedEnemy);
+	instance_destroy(selectedEnemy);
+	room_goto(gameworld);
+}
+	
 }

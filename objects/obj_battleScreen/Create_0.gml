@@ -2,6 +2,7 @@
 // You can write your code in this editor
 selectedEnemy = global.enemySelected
 selectedPlayer = obj_player;
+killedEnemy = noone;
 enum battleState {
 	PLAYERTURN,
 	WAITING,

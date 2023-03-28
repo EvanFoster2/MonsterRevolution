@@ -45,6 +45,7 @@
     {"name":"spr_attack","order":8,"path":"sprites/spr_attack/spr_attack.yy",},
     {"name":"Sprite16","order":15,"path":"sprites/Sprite16/Sprite16.yy",},
     {"name":"obj_skeleton","order":1,"path":"objects/obj_skeleton/obj_skeleton.yy",},
+    {"name":"obj_globalController","order":17,"path":"objects/obj_globalController/obj_globalController.yy",},
     {"name":"obj_enemy","order":12,"path":"objects/obj_enemy/obj_enemy.yy",},
     {"name":"obj_AttackButton","order":7,"path":"objects/obj_AttackButton/obj_AttackButton.yy",},
     {"name":"obj_backButton","order":11,"path":"objects/obj_backButton/obj_backButton.yy",},

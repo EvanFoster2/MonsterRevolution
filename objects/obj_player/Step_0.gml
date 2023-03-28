@@ -11,3 +11,15 @@ if (xp > 1000) {
 	moveSet.bow += 10;
 	xp -= 1000;
 }
+
+if (room == Room1) {
+	visible = 1;
+}
+else {
+	visible = 0;
+}
+
+if (hp <= 0) {
+	//room_goto(DeathRoom)
+	game_restart();
+}
