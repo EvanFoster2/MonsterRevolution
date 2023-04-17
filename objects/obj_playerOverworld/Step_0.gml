@@ -1,5 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (!checkCollision("collisionTiles", x-10, y)) {
-	x -= 2;
+if (room == gameworld) {
+	visible = 1;
+}
+else {
+	visible = 0;
 }

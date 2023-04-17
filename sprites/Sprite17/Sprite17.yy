@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_zombie",
-  "bbox_bottom": 259,
+  "name": "Sprite17",
+  "bbox_bottom": 553,
   "bbox_left": 0,
-  "bbox_right": 259,
+  "bbox_right": 545,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,26 +13,26 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a765760e-bf7c-4435-ae07-929dec73a87f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c94e4a84-12fa-408f-9d89-432c099130c9",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 260,
+  "height": 554,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c5ed5f9a-b86a-4222-98db-7bfa4e82b069","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2a8442c4-8ab9-47a0-969f-f48138195e68","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "MonsterRevolution",
+    "path": "MonsterRevolution.yyp",
   },
   "preMultiplyAlpha": false,
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_zombie",
+    "name": "Sprite17",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a765760e-bf7c-4435-ae07-929dec73a87f","path":"sprites/spr_zombie/spr_zombie.yy",},},},"Disabled":false,"id":"0da2120e-2aff-4831-bfe8-134c67bbfd4f","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c94e4a84-12fa-408f-9d89-432c099130c9","path":"sprites/Sprite17/Sprite17.yy",},},},"Disabled":false,"id":"7acc1636-5089-4ae5-82b0-58caeafdb887","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 260,
+  "width": 546,
 }
