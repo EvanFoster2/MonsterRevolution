@@ -3,3 +3,4 @@
 global.enemySelected = obj_goblin;
 global.spriteSelected = spr_goblin;
 global.killedEnemy = ds_list_create();
+global.currentRoom = gameworld;

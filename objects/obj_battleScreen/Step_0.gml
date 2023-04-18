@@ -38,7 +38,13 @@ if (global.battle_state = battleState.ENEMYTURN) {
 if (selectedEnemy.hp <= 0) {
 	ds_list_add(global.killedEnemy, selectedEnemy);
 	instance_destroy(selectedEnemy);
-	room_goto(gameworld);
+	if (global.currentRoom == gameworld) {
+		room_goto(gameworld);
+	}
+	else {
+		room_goto(gameWorld2)
+	}
+
 }
 	
 }

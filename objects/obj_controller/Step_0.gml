@@ -10,5 +10,6 @@ if (ds_list_size(global.killedEnemy) != 0) {
 	}
 }
 if (finishedWithRoom) {
-	room_goto(gameWorldTwo);
+	global.currentRoom = gameWorld2;
+	room_goto(gameWorld2);
 }
