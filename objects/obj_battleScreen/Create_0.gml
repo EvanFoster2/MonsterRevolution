@@ -9,6 +9,7 @@ enum battleState {
 	ENEMYTURN,
 	END
 };
+add = 0;
 
 global.battle_state = battleState.PLAYERTURN;
 global.attackButtonPushed = false;
