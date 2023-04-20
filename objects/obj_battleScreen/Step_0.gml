@@ -93,7 +93,7 @@ if (shake_duration > 0) {
 	    selectedEnemy.y = selectedEnemy.y + random_range(-shake_intensity, shake_intensity);
 	}
 		
-    if (global.battle_state == battleState.PlayerShaking) {
+    if (global.battle_state == battleState.PlayerShaking && selectedEnemy.hp > 0) {
         selectedPlayer.x = selectedPlayer.x + random_range(-shake_intensity, shake_intensity);
         selectedPlayer.y = selectedPlayer.y + random_range(-shake_intensity, shake_intensity);
     }		
@@ -108,5 +108,9 @@ if (selectedEnemy.hp <= 0 && add == 0) {
 	instance_destroy(selectedEnemy);
 	add++;
 }
+if (selectedPlayer.hp <= 0) {
 	
+	show_debug_message("GAmeOver");
+	room_goto(GameOver);
+}
 }

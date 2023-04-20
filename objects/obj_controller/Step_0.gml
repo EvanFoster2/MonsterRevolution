@@ -4,9 +4,12 @@ finishedWithRoom = false;
 
 if (ds_list_size(global.killedEnemy) != 0) {
 	if (ds_list_size(global.killedEnemy) == 3) {
-		//show_debug_message(string(ds_list_size(global.killedEnemy));
-		//show_debug_message(ds_list_size(global.killedEnemy));
 		finishedWithRoom = true;
+	}
+	else if (ds_list_size(global.killedEnemy) == 6) {
+		show_debug_message("Game Won");
+		global.currentRoom(GameWon);
+		room_goto(GameWon);
 	}
 	for (var i = 0; i < ds_list_size(global.killedEnemy); i++) {
 		instance_destroy(ds_list_find_value(global.killedEnemy, i));
@@ -27,3 +30,4 @@ if (room == Room1) {
 		startx += 175;
 	}
 }
+

@@ -20,6 +20,5 @@ else {
 }
 
 if (hp <= 0) {
-	//room_goto(DeathRoom)
-	game_restart();
+
 }
