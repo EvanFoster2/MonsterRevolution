@@ -2,8 +2,10 @@
 // You can write your code in this editor
 show_debug_message("NEW CONTROLLER");
 if (room == gameworld) {
+	instance_create_layer(704,448 , "Instances", obj_heart);
 	global.recruitedMonsters = ds_list_create();
 	global.hadRecruitPopup = false;
+	global.hpGain = 50;
 
 	
 }

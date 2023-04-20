@@ -54,7 +54,7 @@
     {"id":{"name":"gameworld","path":"rooms/gameworld/gameworld.yy",},"order":1,},
     {"id":{"name":"Sprite19","path":"sprites/Sprite19/Sprite19.yy",},"order":17,},
     {"id":{"name":"spr_skeleton","path":"sprites/spr_skeleton/spr_skeleton.yy",},"order":2,},
-    {"id":{"name":"gameWorld2","path":"rooms/gameWorld2/gameWorld2.yy",},"order":3,},
+    {"id":{"name":"gameWorld2","path":"rooms/gameWorld2/gameWorld2.yy",},"order":2,},
     {"id":{"name":"checkCollision","path":"scripts/checkCollision/checkCollision.yy",},"order":1,},
     {"id":{"name":"TileSet3","path":"tilesets/TileSet3/TileSet3.yy",},"order":2,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
@@ -70,7 +70,7 @@
     {"id":{"name":"obj_dragon","path":"objects/obj_dragon/obj_dragon.yy",},"order":5,},
     {"id":{"name":"Sprite20","path":"sprites/Sprite20/Sprite20.yy",},"order":18,},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":15,},
-    {"id":{"name":"SplashScreen","path":"rooms/SplashScreen/SplashScreen.yy",},"order":2,},
+    {"id":{"name":"SplashScreen","path":"rooms/SplashScreen/SplashScreen.yy",},"order":3,},
     {"id":{"name":"obj_goblin","path":"objects/obj_goblin/obj_goblin.yy",},"order":14,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":1,},
     {"id":{"name":"obj_splashScreen","path":"objects/obj_splashScreen/obj_splashScreen.yy",},"order":13,},
@@ -90,9 +90,9 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"SplashScreen","path":"rooms/SplashScreen/SplashScreen.yy",},},
     {"roomId":{"name":"gameworld","path":"rooms/gameworld/gameworld.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"roomId":{"name":"SplashScreen","path":"rooms/SplashScreen/SplashScreen.yy",},},
     {"roomId":{"name":"gameWorld2","path":"rooms/gameWorld2/gameWorld2.yy",},},
   ],
   "TextureGroups": [

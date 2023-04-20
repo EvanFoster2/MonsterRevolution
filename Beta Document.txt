@@ -1,0 +1,19 @@
+Tasks Complete:
+-created tilesets and placed them on rooms
+-collision with walls player movement
+-Built 2 levels with player movement
+-fleshed out battle system
+-Added monster recruitment
+-Added monssters as usable items for more damage
+-Added Monster Recruitment Popup
+
+Tasks Not Complete:
+-Animations
+-Polish
+-More Items
+
+Known Bugs:
+-Text shifts to the left once monsterRecruitment popup happens
+-Splash Screen doesnt appear first
+-Heart item gives a ton of health (kind of intentional so we can just show off the second level)
+-Player Movement with walls is sometimes janky

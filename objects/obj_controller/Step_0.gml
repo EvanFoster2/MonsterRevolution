@@ -27,6 +27,3 @@ if (room == Room1) {
 		startx += 175;
 	}
 }
-if (room==gameworld) {
-	instance_create_layer(704,448 , "Instances", obj_heart);
-}
